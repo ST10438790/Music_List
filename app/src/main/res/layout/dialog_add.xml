@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/inputitem"
+        android:layout_width="410dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Song Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputcategory"
+        android:layout_width="410dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="Artist Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/inputquantity"
+        android:layout_width="409dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Rating (1-5)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputcomment"
+        android:layout_width="410dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="User Comments"
+        android:inputType="text"/>
+
+
+</LinearLayout>
